@@ -4,7 +4,7 @@ This application is used to read a mounted file via HTTP. Simply mount a file in
 # Inputs
 This service can take 2 inputs via envroment variubles
 * `PORT`: Which port to serve from. Default is `8000`
-* `FILE_PATH`: Path to file to erad. Default is `/served-file`
+* `FILE_PATH`: Path to file to erad. Default is `/served/file`
 
 # Example Usage
 

@@ -1,8 +1,9 @@
 FROM node:6.10.3
 
-RUN echo "hello world!" > /served-file
+RUN mkdir /served
+RUN echo "hello world!" > /served/file
 
-ENV FILE_PATH /served-file
+ENV FILE_PATH /served/file
 ENV PORT 8080
 EXPOSE 8080
 
